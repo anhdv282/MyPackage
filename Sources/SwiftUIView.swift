@@ -8,8 +8,9 @@
 import Foundation
 import SwiftUI
 
-struct MyView: View {
-    var body: some View {
+public struct MyView: View {
+    public init() {}
+    public var body: some View {
         Text("Hello from Package")
     }
 }
